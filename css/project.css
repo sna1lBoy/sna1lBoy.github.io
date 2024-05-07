@@ -1,0 +1,61 @@
+h1 {
+    font-size: 3.2vw;
+    text-align: center;
+    display: block;
+    margin-bottom: -1.5vw;
+}
+
+h2 {
+    font-size: 1.5vw;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: lightgreen;
+    margin-bottom: 3vw;
+}
+
+h3 {
+    font-size: 1.4vw;
+    margin-bottom: -1vw;
+}
+
+h4 {
+    font-size: 1.2vw;
+    margin-bottom: -.1vw;
+    color: lightgreen;
+}
+
+a {
+    color: lightgray;
+}
+
+a:hover {
+    color:gray
+}
+
+.downloadButton {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -125px 0 0 -250px;
+} 
+
+.backButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: .8vw;
+    color: lightgray;
+}
+
+.backButton:hover {
+    color: gray;
+}
+
+.source {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

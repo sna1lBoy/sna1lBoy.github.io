@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(8,10,10);
+    font-family: "Lucida Console", monospace;
+    color: white;
+    padding: .2vw;
+}
+
+.name {
+    position: absolute;
+    left: 42%;
+    transform: translateX(-50%);
+    bottom: -1vw;
+    font-size: 1.2vw;
+    display: block;
+    white-space: nowrap;
+}
+
+.nav h2 {
+    font-size: 1.6vw;
+    margin-bottom: -.3vw;
+    margin-top: 2vw;
+    position: relative;
+}
+
+.nav span {
+    color: lightgreen;
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 1vw;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: grey;
+}
+
+.footer > * {
+    font-size: .7vw;
+    color: lightgreen;
+    text-decoration: none;
+    bottom: 5px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.footer a {
+    bottom: 0px;
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: lightgreen;
+}
